@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      date >> index.html
+artifacts:
+  files:
+    - index.html
+    - appspec.yml
